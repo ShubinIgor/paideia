@@ -1,0 +1,2 @@
+class Bokmark < ApplicationRecord
+end

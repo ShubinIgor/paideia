@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bokmark %>
+
+<div>
+  <%= link_to "Edit this bokmark", edit_bokmark_path(@bokmark) %> |
+  <%= link_to "Back to bokmarks", bokmarks_path %>
+
+  <%= button_to "Destroy this bokmark", @bokmark, method: :delete %>
+</div>

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Bokmarks</h1>
+
+<div id="bokmarks">
+  <% @bokmarks.each do |bokmark| %>
+    <%= render bokmark %>
+    <p>
+      <%= link_to "Show this bokmark", bokmark %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New bokmark", new_bokmark_path %>

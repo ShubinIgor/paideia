@@ -1,0 +1,2 @@
+module BokmarksHelper
+end
